@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
+justify-content: center;
+align-items: center;
 }
-
 body {
     font-family: 'Inter', sans-serif;
     background: #0f172a;
@@ -56,8 +58,8 @@ body {
 }
 
 .profile-img {
-    width: 160px;
-    height: 160px;
+    width: 600px;
+    height: 4000px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #3b82f6;
@@ -144,4 +146,5 @@ footer {
     padding: 25px;
     border-top: 1px solid #1e293b;
     font-size: 14px;
+
 }
