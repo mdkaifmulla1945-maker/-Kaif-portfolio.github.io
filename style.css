@@ -5,8 +5,8 @@
 }
 body {
     font-family: 'Inter', sans-serif;
-    background: #0f172a;
-    color: #e2e8f0;
+    background: black;
+    color: white;
     line-height: 1.7;
 }
 
@@ -164,5 +164,6 @@ footer {
     font-size: 14px;
 
 }
+
 
 
