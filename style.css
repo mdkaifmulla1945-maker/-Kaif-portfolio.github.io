@@ -61,12 +61,16 @@ body {
     max-width:300px;
     height: auto;
     border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #3b82f6;
+    /* Make colors more vibrant */
+    filter: contrast(110%) saturate(130%) brightness(105%);
+    
+    /* Clean white border */
+    border: 4px solid #ffffff;
 
-    box-shadow:
-        0 0 20px rgba(59,130,246,0.4),
-        0 0 50px rgba(59,130,246,0.2);
+    /* Soft glow effect */
+    box-shadow: 0 0 25px rgba(0, 255, 200, 0.4);
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .tagline {
@@ -170,6 +174,7 @@ footer {
     font-size: 14px;
 
 }
+
 
 
 
